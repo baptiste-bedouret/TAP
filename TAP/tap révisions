@@ -1,0 +1,12 @@
+TAP:
+
+fct de comparaison:
+
+f(a,b)
+int f(int *a, int *b){
+return (*a<*b) ? -1 :
+((*a==*b)?0:1)
+
+f(a,b)=-1 indique *a<*b
+f(a,b)=0 indique *a==*b
+f(a,b)>1 indique *a>*b
